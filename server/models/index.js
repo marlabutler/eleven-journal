@@ -1,3 +1,6 @@
 const UserModel = require("./user");
-
-module.exports = { UserModel };
+const JournalModel = require("./journal");
+module.exports = { 
+    UserModel, 
+    JournalModel 
+};
